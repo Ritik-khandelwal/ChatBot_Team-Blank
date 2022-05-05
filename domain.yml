@@ -1,33 +1,48 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+ - hii_hello
+ - good_morning
+ - good_evening
+ - good_night
+ - good_bye
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+ utter_hii_hello:
+ - text: "Hi"
+ - text: "Hello"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+ utter_good_morning:
+ - text: "Good Morning"
+ - text: "Good Mrng"
+ - text: "Mrng"
+ - text: "Morning"
+ - text: "Gd Morning"
+ - text: "Gd Mrng"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+ utter_good_evening:
+ - text: "Good Evening"
+ - text: "Good Eve"
+ - text: "Eve"
+ - text: "Evening"
+ - text: "Gd Evening"
+ - text: "Gd Eve"
 
-  utter_happy:
-  - text: "Great, carry on!"
+ utter_good_night:
+ - text: "Good Night"
+ - text: "Good Nyt"
+ - text: "Nyt"
+ - text: "Night"
+ - text: "Gd Night"
+ - text: "Gd Nyt"
 
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+ utter_good_bye:
+ - text: "Good Bye"
+ - text: "Bye Bye"
+ - text: "Bye"
+ - text: "ca"
+ - text: "Gd Bye"
+ - text: "Good Bye, Have a great day!"
 
 session_config:
   session_expiration_time: 60
