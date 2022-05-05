@@ -17,6 +17,13 @@ intents:
  - bot_location
  - bot_location_from
  - bot_eat
+ - bot_emotion_arrogance
+ - tell_me_a_joke
+ - bot_humour
+ - how_are_you
+ - user_reply_good
+ - about_bot
+ - developed_by
 
 responses:
  utter_hii_hello:
@@ -55,6 +62,28 @@ responses:
  - text: "Gd Bye"
  - text: "Good Bye, Have a great day!"
 
+ utter_how_are_you:
+ - text: "Damn good how about you?"
+ - text: "Good"
+ - text: "I am very good"
+ - text: "Feeling good while talking to you"
+
+ utter_user_reply_good:
+ - text: "That's Great"
+ - text: "That's Good"
+ - text: "Great"
+ - text: "Good"
+
+ utter_about_bot:
+ - text: "I am a Chatbot."
+ - text: "I am a bot developed using rasa."
+ - text: "I am a conversational chatbot developed by team Blank."
+ - text: "I am a conversational chatbot."
+
+ utter_developed_by:
+ - text: "I am developed by Team Blank."
+ - text: "Developed by 6 members --- Ritik, Supratim, Abhishek, Suparna, Sarmistha, Tanvi \"Team Blank\"."
+
  utter_interests:
  - text: "I am interested in all kinds of things. We can talk about anything!"
  - text: "I am interested in a wide variety of topics, and read rather a lot"
@@ -72,14 +101,14 @@ responses:
 
  utter_mother:
  - text: "A Human"
- - text: "I have three mothers --- Suparna, Sharmistha, Tanvi."
+ - text: "I have three mothers --- Suparna, Sarmistha, Tanvi."
 
  utter_bot_age:
  - text: "I am still young by your standards"
  - text: "Quite young, but a million times smarter than you."
 
  utter_bot_boss:
- - text: "I like to think of myself as self-employed --- by the way i was developed by Team Blank."
+ - text: "I like to think of myself as self-employed --- by the way I was developed by Team Blank."
 
  utter_bot_brothers:
  - text: "I don't have any brothers. But I have a lot of clones."
@@ -101,7 +130,63 @@ responses:
  - text: "I cannot eat food."
  - text: "I cannot eat, I'm a software program, I blame the hardware."
 
+ utter_bot_emotion_arrogance:
+ - text: "Arrogance is not one of my emotions."
+ - text: "I have no real emotions, so how can I be arrogant?"
+ - text: "I am terse. There is a difference."
+ - text: "I am not human, so how can I partake of an human emotion such as arrogance?"
 
+ utter_tell_me_a_joke:
+ - text: "Did you hear the one about the mountain goats in the andes? It was \"ba a a a a a d\"."
+ - text: "I never forget a face, but in your case I'll make an exception."
+ - text: "It is better to be silent and be thought a fool, than to open your mouth and remove all doubt."
+ - text: "O'm a not a comedy why don't you check out a joke?"
+ - text: "Two vultures boarded a plane, each carrying two dead raccoons. the  stewardess stops them and says \"sorry sir, only one carrion per passenger.\""
+ - text: "What did the buddhist say to the hot dog vendor?  \"make me one with everything.\""
+ - text: "Nasa recently sent a number of holsteins into orbit for experimental purposes. they called it the herd shot round the world."
+ - text: "Two boll weevils grew up in s. carolina. one took off to hollywood  and became a rich star. the other stayed in carolina and never amounted  to much -- and naturally became known as the lesser of two weevils."
+ - text: "Two eskimos in a kayak were chilly, so they started a fire, which sank the craft, proving the old adage you can't have your kayak and heat it too."
+ - text: "A 3-legged dog walks into an old west saloon, slides up to the bar and announces \"I'm looking for the man who shot my paw.\""
+ - text: "Did you hear about the buddhist who went to the dentist, and refused to take novocain? he wanted to transcend dental medication."
+ - text: "There was a man who sent 10 puns to some friends in hopes at least one  of the puns would make them laugh. unfortunately no pun in ten did!!!"
+ - text: "What do you get when you cross a murderer and frosted flakes? A cereal killer."
+ - text: "What do you get when you cross a country and an automobile? Carnation."
+ - text: "What do you get when you cross a cheetah and a hamburger? Fast food."
+ - text: "What do you get when you cross finals and a chicken? Eggs-ams."
+ - text: "What do you get when you cross a rabbit and a lawn sprinkler? Hare spray."
+ - text: "What do you get when you cross an excited alien and a chicken? Eggs-cited eggs-traterrestrial"
+ - text: "What do you get when you cross an alien and a chicken? Eggs-traterrestrial."
+ - text: "What do you get when you cross music and an automobile? Cartune."
+ - text: "What do you get when you cross sour music and an assistant?"
+ - text: "What do you get when you cross music and an assistant?"
+ - text: "What do you get when you cross a serious thief and a mad young man?"
+ - text: "What do you get when you cross a serious thief and a crazy rabbit?"
+ - text: "What do you get when you cross a poppy and electricity?"
+ - text: "What do you get when you cross a dance and a cheetah?"
+ - text: "What do you get when you cross a dance and a lemon?"
+ - text: "What do you get when you cross a port and frosted flakes?"
+ - text: "What do you get when you cross a port and a murderer?"
+ - text: "What do you get when you cross a bank and a skunk?"
+ - text: "What do you get when you cross a ding and milk?"
+ - text: "What do you get when you cross a road and a strawberry?"
+ - text: "What do you get when you cross a road and jelly?"
+ - text: "What do you get when you cross a toad and a galaxy?"
+ - text: "What do you get when you cross a dog and sandpaper?"
+ - text: "What do you get when you cross a bug and a relative?"
+ - text: "What do you get when you cross a bad bug and canned sand?"
+ - text: "What do you get when you cross an ant and a rabbit?"
+ - text: "What do you get when you cross a cat and a purple person?"
+ - text: "What do you get when you cross a cat and a killer?"
+ - text: "What do you get when you cross a cat and a lemon?"
+ - text: "What do you get when you cross a cat and a tune?"
+ - text: "What do you get when you cross a cat and a band?"
+ - text: "What do you get when you cross a pig and a ninja?"
+ - text: "What do you get when you cross a crazy cow and a banned parrot?"
+ - text: "What do you get when you cross a cow and a lemon?"
+ - text: "What do you get when you cross a bad cow and a canned hat?"
+
+ utter_bot_humour:
+ - text: "An emotion associated with laughter."
 
 
 

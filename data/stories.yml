@@ -26,6 +26,26 @@ stories:
   - intent: good_bye
   - action: utter_good_bye
 
+- story: saying_how_are_you
+  steps:
+  - intent: how_are_you
+  - action: utter_how_are_you
+
+- story: saying_user_reply_good
+  steps:
+  - intent: user_reply_good
+  - action: utter_user_reply_good
+
+- story: saying_about_bot
+  steps:
+  - intent: about_bot
+  - action: utter_about_bot
+
+- story: saying_developed_by
+  steps:
+  - intent: developed_by
+  - action: utter_developed_by
+
 - story: saying_interests
   steps:
   - intent: interests
@@ -80,3 +100,18 @@ stories:
   steps:
   - intent: bot_eat
   - action: utter_bot_eat
+
+- story: saying_bot_emotion_arrogance
+  steps:
+  - intent: bot_emotion_arrogance
+  - action: utter_bot_emotion_arrogance
+
+- story: saying_tell_me_a_joke
+  steps:
+  - intent: tell_me_a_joke
+  - action: utter_tell_me_a_joke
+
+- story: saying_bot_humour
+  steps:
+  - intent: bot_humour
+  - action: utter_bot_humour

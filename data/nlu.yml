@@ -38,6 +38,38 @@ nlu:
    - ca
    - gd bye
 
+- intent: how_are_you
+  examples: |
+   - how are you
+   - how r u
+   - hw r u
+   - how about you
+
+- intent: user_reply_good
+  examples: |
+   - i am good
+   - i am fine
+   - good
+   - fine
+   - great
+   - got it
+
+- intent: about_bot
+  examples: |
+   - who are you
+   - who r u
+   - are you human
+   - are you a bot
+
+- intent: developed_by
+  examples: |
+   - who developed you
+   - developed by
+   - dvlp by
+   - which team developed you
+   - team name that developed you
+   - team name
+
 - intent: interests
   examples: |
    - what are your interests
@@ -108,3 +140,25 @@ nlu:
    - what do you eat
    - do you eat food
 
+- intent: bot_emotion_arrogance
+  examples: |
+   - you are arrogant
+   - arrogant
+   - haughty
+   - conceited
+   - hubristic
+   - self-important
+   - opinionated
+
+- intent: tell_me_a_joke
+  examples: |
+   - tell me a joke
+   - crack a joke
+   - funny story
+   - play on words
+
+- intent: bot_humour
+  examples: |
+   - what is humour
+   - what do you mean by humour
+   - humour
