@@ -25,3 +25,58 @@ stories:
   steps:
   - intent: good_bye
   - action: utter_good_bye
+
+- story: saying_interests
+  steps:
+  - intent: interests
+  - action: utter_interests
+
+- story: saying_favourite_subjects
+  steps:
+  - intent: favourite_subjects
+  - action: utter_favourite_subjects
+
+- story: saying_phone_number
+  steps:
+  - intent: phone_number
+  - action: utter_phone_number
+
+- story: saying_father
+  steps:
+  - intent: father
+  - action: utter_father
+
+- story: saying_mother
+  steps:
+  - intent: mother
+  - action: utter_mother
+
+- story: saying_bot_age
+  steps:
+  - intent: bot_age
+  - action: utter_bot_age
+
+- story: saying_bot_boss
+  steps: 
+  - intent: bot_boss
+  - action: utter_bot_boss
+
+- story: saying_bot_brothers
+  steps:
+  - intent: bot_brothers
+  - action: utter_bot_brothers
+
+- story: saying_bot_location
+  steps:
+  - intent: bot_location
+  - action: utter_bot_location
+
+- story: saying_bot_location_from
+  steps:
+  - intent: bot_location_from
+  - action: utter_bot_location_from
+
+- story: saying_bot_eat
+  steps:
+  - intent: bot_eat
+  - action: utter_bot_eat

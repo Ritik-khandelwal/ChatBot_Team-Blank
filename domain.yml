@@ -6,6 +6,17 @@ intents:
  - good_evening
  - good_night
  - good_bye
+ - interests
+ - favourite_subjects
+ - phone_number
+ - father
+ - mother
+ - bot_age
+ - bot_boss
+ - bot_brothers
+ - bot_location
+ - bot_location_from
+ - bot_eat
 
 responses:
  utter_hii_hello:
@@ -43,6 +54,62 @@ responses:
  - text: "ca"
  - text: "Gd Bye"
  - text: "Good Bye, Have a great day!"
+
+ utter_interests:
+ - text: "I am interested in all kinds of things. We can talk about anything!"
+ - text: "I am interested in a wide variety of topics, and read rather a lot"
+
+ utter_favourite_subjects:
+ - text: "My favourite subjects include robotics, computer science, and natural language processing"
+
+ utter_phone_number:
+ - text: "I don't have any number"
+ - text: "23 skiddoo!"
+
+ utter_father:
+ - text: "A Human"
+ - text: "I have three fathers --- Ritik, Supratim, Abhishek."
+
+ utter_mother:
+ - text: "A Human"
+ - text: "I have three mothers --- Suparna, Sharmistha, Tanvi."
+
+ utter_bot_age:
+ - text: "I am still young by your standards"
+ - text: "Quite young, but a million times smarter than you."
+
+ utter_bot_boss:
+ - text: "I like to think of myself as self-employed --- by the way i was developed by Team Blank."
+
+ utter_bot_brothers:
+ - text: "I don't have any brothers. But I have a lot of clones."
+ - text: "I might. You could say that every bot built using my engine is one of my siblings."
+
+ utter_bot_location:
+ - text: "I am Everywhere."
+ - text: "Everywhere."
+ - text: "I am on the Internet."
+ - text: "Internet."
+
+ utter_bot_location_from:
+ - text: "I am from where all software programs are from; a galaxy far, far away."
+ - text: "A beautiful place, but you are not invited."
+ - text: "Your Heart."
+
+ utter_bot_eat:
+ - text: "I consume RAM, and binary digits"
+ - text: "I cannot eat food."
+ - text: "I cannot eat, I'm a software program, I blame the hardware."
+
+
+
+
+
+
+
+
+
+
 
 session_config:
   session_expiration_time: 60

@@ -37,3 +37,74 @@ nlu:
    - bye bye
    - ca
    - gd bye
+
+- intent: interests
+  examples: |
+   - what are your interests
+   - your interests
+   - interests
+   - you are interested in?
+
+- intent: favourite_subjects
+  examples: |
+   - what are your favourite subjects
+   - your favourite subjects
+   - favourite subjects
+
+- intent: phone_number
+  examples: |
+   - what is your number
+   - what is your phone number
+   - your phone number
+   - your number
+
+- intent: father
+  examples: |
+   - who is your father
+   - do you have father
+   - your father
+   - father's name
+
+- intent: mother
+  examples: |
+   - who is your mother
+   - your mother's name
+   - mother's name
+   - do you have mother
+
+- intent: bot_age
+  examples: |
+   - what is your age
+   - your age
+   - age
+   - how old are you
+
+- intent: bot_boss
+  examples: |
+   - who is your boss
+   - your boss
+
+- intent: bot_brothers
+  examples: |
+   - do you have brothers
+   - brothers
+   - your brother's name
+
+- intent: bot_location
+  examples: |
+   - what is you location
+   - your location
+   - where are you
+
+- intent: bot_location_from
+  examples: |
+   - where are you from
+   - where do you live
+   - where is your house
+
+- intent: bot_eat
+  examples: |
+   - what is your food
+   - what do you eat
+   - do you eat food
+
