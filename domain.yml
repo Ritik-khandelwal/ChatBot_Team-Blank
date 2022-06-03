@@ -18,12 +18,29 @@ intents:
  - bot_location_from
  - bot_eat
  - bot_emotion_arrogance
+ - bot_saying_thankyou
+ - user_saying_thankyou
  - tell_me_a_joke
  - bot_humour
  - how_are_you
  - user_reply_good
  - about_bot
  - developed_by
+ - genre_options
+ - genre_options_more
+ - romance_books
+ - science_fiction_books
+ - historical_fiction_books
+ - action_&_adventure_books
+ - detective_&_mystery_books
+ - classic_books
+ - comic_books
+ - fantasy_books
+ - horror_books
+ - short_stories_books
+ - suspense_thriller_books
+ - bio_autobio_books
+ - self_help_books
 
 responses:
  utter_hii_hello:
@@ -136,6 +153,17 @@ responses:
  - text: "I am terse. There is a difference."
  - text: "I am not human, so how can I partake of an human emotion such as arrogance?"
 
+ utter_bot_saying_thankyou:
+ - text: "Thankyou !!!"
+ - text: "Ohh Thanks !!!"
+
+ utter_user_saying_thankyou:
+ - text: "Fine"
+ - text: "It's Ok"
+ - text: "Welcome"
+ - text: "No Problem"
+ - text: "Chill"
+
  utter_tell_me_a_joke:
  - text: "Did you hear the one about the mountain goats in the andes? It was \"ba a a a a a d\"."
  - text: "I never forget a face, but in your case I'll make an exception."
@@ -188,6 +216,284 @@ responses:
  utter_bot_humour:
  - text: "An emotion associated with laughter."
 
+ utter_genre_options:
+ - text: "Which is your Favourite Genre?"
+
+ utter_genre_option_1:
+ - text: "1. Romance"
+
+ utter_genre_option_2:
+ - text: "2. Science Fiction"
+
+ utter_genre_option_3:
+ - text: "3. Historical Fiction"
+
+ utter_genre_option_4:
+ - text: "4. Action & Adventure"
+
+ utter_genre_option_5:
+ - text: "5. Detective & Mystery"
+
+ utter_genre_option_6:
+ - text: "6. Classics"
+
+ utter_genre_option_7:
+ - text: "7. Comic"
+
+ utter_genre_more:
+ - text: "If you want some more suggestions, type \"more books options\""
+
+ utter_genre_option_more_8:
+ - text: "8. Fantasy"
+
+ utter_genre_option_more_9:
+ - text: "9. Horror"
+
+ utter_genre_option_more_10:
+ - text: "10. Short Stories"
+
+ utter_genre_option_more_11:
+ - text: "11. Suspense & Thrillers"
+
+ utter_genre_option_more_12:
+ - text: "12. Biographies & Autobiographies"
+
+ utter_genre_option_more_13:
+ - text: "13. Self Help"
+
+ utter_romance_books:
+ - text: "Here are some Romance Books"
+
+ utter_romance_book_1:
+ - text: "1. The Fault in our stars. [John Green]"
+
+ utter_romance_book_2:
+ - text: "2. You are the best wife. [Ajay K Pandey]"
+
+ utter_romance_book_3:
+ - text: "3. Pride & Prejudice. [Jane Austin]"
+
+ utter_romance_book_4:
+ - text: "4. Jane Eyre. [Charlotte Bronte]"
+
+ utter_romance_book_5:
+ - text: '5. Romeo And Juliet. [William Shakespeare]'
+
+ utter_science_fiction_books:
+ - text: "Here are some Science Fiction Books"
+
+ utter_science_fiction_book_1:
+ - text: "1. Dune. [Frank Herbert]"
+
+ utter_science_fiction_book_2:
+ - text: "2. The Time Machine. [H.G. Wells]"
+
+ utter_science_fiction_book_3:
+ - text: "3. Frankenstein. [Mary Shelley]"
+
+ utter_science_fiction_book_4:
+ - text: "4. The Giver. [Lois Lowry's]"
+
+ utter_science_fiction_book_5:
+ - text: "5. The Time Machine. [H.G. Wells]"
+
+ utter_historical_fiction_books:
+ - text: "Here are some Historical Fiction Books"
+
+ utter_historical_fiction_book_1:
+ - text: "1. Wolf Hall. [Hilary Mantel]"
+
+ utter_historical_fiction_book_2:
+ - text: "2. A Rising Man. [Abir Mukherjee]"
+
+ utter_historical_fiction_book_3:
+ - text: "3. A Gentleman in Moscow. [Amor Towles]"
+
+ utter_historical_fiction_book_4:
+ - text: "4. The Help. [Kathryn Stockett]"
+
+ utter_historical_fiction_book_5:
+ - text: "5. Memoirs of a Geisha. [Arthur Golden]"
+
+ utter_action_&_adventure_books:
+ - text: "Here are some Action & Adventure Books"
+
+ utter_action_&_adventure_book_1:
+ - text: "1. Life of PI. [Yann Martel]"
+
+ utter_action_&_adventure_book_2:
+ - text: "2. The Three Musketeers. [Alexandre Dumas]"
+
+ utter_action_&_adventure_book_3:
+ - text: "3. The Call of the Wild. [Jack London]"
+
+ utter_action_&_adventure_book_4:
+ - text: "4. Treasure Island. [Robert Louis Stevenson]"
+
+ utter_action_&_adventure_book_5:
+ - text: "5. Gulliver's Travels. [Jonathan Swift]"
+
+ utter_detective_&_mystery_books:
+ - text: "Here are some Detective & Mystery Books"
+
+ utter_detective_&_mystery_book_1:
+ - text: "1. The Adventures of Sherlock Holmes. [Arthur Conan Doyle]"
+
+ utter_detective_&_mystery_book_2:
+ - text: "2. The Moonstone. [Wilkie Collins]"
+
+ utter_detective_&_mystery_book_3:
+ - text: "3. The Murder of Roger Ackroyd. [Agatha Christie]"
+
+ utter_detective_&_mystery_book_4:
+ - text: "4. The Daughter of Time. [Josephine Tey]"
+
+ utter_detective_&_mystery_book_5:
+ - text: "5. The Big Sleep. [Raymond Chandler]"
+
+ utter_classic_books:
+ - text: "Here are some Classic Books"
+
+ utter_classic_book_1:
+ - text: "1. Little Women. [Louisa May Alcott]"
+
+ utter_classic_book_2:
+ - text: "2. The Alchemist. [Paulo Coelho]"
+
+ utter_classic_book_3:
+ - text: "3. To Kill a Mockingbird. [Harper Lee]"
+
+ utter_classic_book_4:
+ - text: "4. Beloved. [Toni Morrison]"
+
+ utter_classic_book_5:
+ - text: "5. The Great Gatsby. [F. Scott Fitzgerald]"
+
+ utter_comic_books:
+ - text: "Here are some Comic Books"
+
+ utter_comic_book_1:
+ - text: "1. Watchmen. [Alan Moore]"
+
+ utter_comic_book_2:
+ - text: "2. The Walking Dead: Compendium One. [Robert Kirkman]"
+
+ utter_comic_book_3:
+ - text: "3. Batman: The Dark Knight Returns. [Frank Miller]"
+
+ utter_comic_book_4:
+ - text: "4. Ms. Marvel. [G. Willow Wilson]"
+
+ utter_comic_book_5:
+ - text: "5. This One Summer. [Mariko Tamaki]"
+
+ utter_fantasy_books:
+ - text: "Here are some Fantasy Books"
+
+ utter_fantasy_book_1:
+ - text: "1. Harry Potter. [J.K. Rowling]"
+
+ utter_fantasy_book_2:
+ - text: "2. Circe. [Madeline Miller]"
+
+ utter_fantasy_book_3:
+ - text: "3. A Game of Thrones. [George R.R. Martin]"
+
+ utter_fantasy_book_4:
+ - text: "4. The Colour of Magic. [Terry Pratchett]"
+
+ utter_fantasy_book_5:
+ - text: "5. The Felloship of the Ring. [J.R.R. Tolkien]"
+
+ utter_horror_books:
+ - text: "Here are some Horror Books"
+
+ utter_horror_book_1:
+ - text: "1. Carrie. [Stephen King]"
+
+ utter_horror_book_2:
+ - text: "2. The Haunting of Hill House. [Shirley Jackson]"
+
+ utter_horror_book_3:
+ - text: "3. Bird Box. [Josh Malerman]"
+
+ utter_horror_book_4:
+ - text: "4. House of Leaves. [Mark Z. Danielewski]"
+
+ utter_horror_book_5:
+ - text: "5. The Woman in Black. [Susan Hill]"
+
+ utter_short_stories_books:
+ - text: "Here are some Short Stories Books"
+
+ utter_short_stories_book_1:
+ - text: "1. The Blue Umbrella. [Ruskin Bond]"
+
+ utter_short_stories_book_2:
+ - text: "2. The Wind in the Willows. [Kenneth Grahame]"
+
+ utter_short_stories_book_3:
+ - text: "3. Good Vibes, Good Life. [Vex King]"
+
+ utter_short_stories_book_4:
+ - text: "4. The Girl with no Dreams. [Deepak Gupta]"
+
+ utter_short_stories_book_5:
+ - text: "5. The Lottery. [Shirley Jackson]"
+
+ utter_suspense_thriller_books:
+ - text: "Here are some Suspense & Thriller Books"
+
+ utter_suspense_thriller_book_1:
+ - text: "1. And Then There were None. [Agatha Christie]"
+
+ utter_suspense_thriller_book_2:
+ - text: "2. All Her Little Secrets. [Wanda M. Morris]"
+
+ utter_suspense_thriller_book_3:
+ - text: "3. Behind Her Eyes. [Sarah Pinborough]"
+
+ utter_suspense_thriller_book_4:
+ - text: "4. Gone Girl. [Gillian Flynn]"
+
+ utter_suspense_thriller_book_5:
+ - text: "5. The Silent Patient. [Alex Michaelides]"
+
+ utter_bio_autobio_books:
+ - text: "Here are some Biographies & Autobiographies Books"
+
+ utter_bio_autobio_book_1:
+ - text: "1. The Diary of a Young Girl. [Anna Frank]"
+
+ utter_bio_autobio_book_2:
+ - text: "2. Wings of Fire. [A.P.J. Abdul Kalam & Arun Tiwari]"
+
+ utter_bio_autobio_book_3:
+ - text: "3. Becoming. [Michelle Obama]"
+
+ utter_bio_autobio_book_4:
+ - text: "4. Steve Jobs. [Walter Isaacson]"
+
+ utter_bio_autobio_book_5:
+ - text: "5. The Autobiography of Benjamin Franklin. [Benjamin Franklin]"
+
+ utter_self_help_books:
+ - text: "Here are some Self Help Books"
+
+ utter_self_help_book_1:
+ - text: "1. Every Thing is F*ucked: A Book About Hope. [Mark Manson]"
+
+ utter_self_help_book_2:
+ - text: "2. Dare to Lead. [Brene Brown]"
+
+ utter_self_help_book_3:
+ - text: "3. How to Win Friends and Influence People. [Dale Carnegie]"
+
+ utter_self_help_book_4:
+ - text: "4. Rich Dad Poor Dad. [Robert Kiyosaki & Sharon Lechter]"
+
+ utter_self_help_book_5:
+ - text: "5. The 7 Habits of Highly Effective People. [Stephen Covey]"
 
 
 

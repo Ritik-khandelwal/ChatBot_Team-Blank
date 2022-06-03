@@ -106,6 +106,16 @@ stories:
   - intent: bot_emotion_arrogance
   - action: utter_bot_emotion_arrogance
 
+- story: saying_bot_saying_thankyou
+  steps:
+  - intent: bot_saying_thankyou
+  - action: utter_bot_saying_thankyou
+
+- story: saying_user_saying_thankyou
+  steps:
+  - intent: user_saying_thankyou
+  - action: utter_user_saying_thankyou
+
 - story: saying_tell_me_a_joke
   steps:
   - intent: tell_me_a_joke
@@ -115,3 +125,156 @@ stories:
   steps:
   - intent: bot_humour
   - action: utter_bot_humour
+
+- story: saying_genre_options
+  steps:
+  - intent: genre_options
+  - action: utter_genre_options
+  - action: utter_genre_option_1
+  - action: utter_genre_option_2
+  - action: utter_genre_option_3
+  - action: utter_genre_option_4
+  - action: utter_genre_option_5
+  - action: utter_genre_option_6
+  - action: utter_genre_option_7
+  - action: utter_genre_more
+
+- story: saying_genre_options_more
+  steps:
+  - intent: genre_options_more
+  - action: utter_genre_option_more_8
+  - action: utter_genre_option_more_9
+  - action: utter_genre_option_more_10
+  - action: utter_genre_option_more_11
+  - action: utter_genre_option_more_12
+  - action: utter_genre_option_more_13
+
+- story: saying_romance_books
+  steps:
+  - intent: romance_books
+  - action: utter_romance_books
+  - action: utter_romance_book_1
+  - action: utter_romance_book_2
+  - action: utter_romance_book_3
+  - action: utter_romance_book_4
+  - action: utter_romance_book_5
+
+- story: saying_science_fiction_books
+  steps:
+  - intent: science_fiction_books
+  - action: utter_science_fiction_books
+  - action: utter_science_fiction_book_1
+  - action: utter_science_fiction_book_2
+  - action: utter_science_fiction_book_3
+  - action: utter_science_fiction_book_4
+  - action: utter_science_fiction_book_5
+
+- story: saying_historical_fiction_books
+  steps:
+  - intent: historical_fiction_books
+  - action: utter_historical_fiction_books
+  - action: utter_historical_fiction_book_1
+  - action: utter_historical_fiction_book_2
+  - action: utter_historical_fiction_book_3
+  - action: utter_historical_fiction_book_4
+  - action: utter_historical_fiction_book_5
+
+- story: saying_action_&_adventure_books
+  steps:
+  - intent: action_&_adventure_books
+  - action: utter_action_&_adventure_books
+  - action: utter_action_&_adventure_book_1
+  - action: utter_action_&_adventure_book_2
+  - action: utter_action_&_adventure_book_3
+  - action: utter_action_&_adventure_book_4
+  - action: utter_action_&_adventure_book_5
+
+- story: saying_detective_&_mystery_books
+  steps:
+  - intent: detective_&_mystery_books
+  - action: utter_detective_&_mystery_books
+  - action: utter_detective_&_mystery_book_1
+  - action: utter_detective_&_mystery_book_2
+  - action: utter_detective_&_mystery_book_3
+  - action: utter_detective_&_mystery_book_4
+  - action: utter_detective_&_mystery_book_5
+
+- story: saying_classic_books
+  steps:
+  - intent: classic_books
+  - action: utter_classic_books
+  - action: utter_classic_book_1
+  - action: utter_classic_book_2
+  - action: utter_classic_book_3
+  - action: utter_classic_book_4
+  - action: utter_classic_book_5
+
+- story: saying_comic_books
+  steps:
+  - intent: comic_books
+  - action: utter_comic_books
+  - action: utter_comic_book_1
+  - action: utter_comic_book_2
+  - action: utter_comic_book_3
+  - action: utter_comic_book_4
+  - action: utter_comic_book_5
+
+- story: saying_fantasy_books
+  steps:
+  - intent: fantasy_books
+  - action: utter_fantasy_books
+  - action: utter_fantasy_book_1
+  - action: utter_fantasy_book_2
+  - action: utter_fantasy_book_3
+  - action: utter_fantasy_book_4
+  - action: utter_fantasy_book_5
+
+- story: saying_horror_books
+  steps:
+  - intent: horror_books
+  - action: utter_horror_books
+  - action: utter_horror_book_1
+  - action: utter_horror_book_2
+  - action: utter_horror_book_3
+  - action: utter_horror_book_4
+  - action: utter_horror_book_5
+
+- story: saying_short_stories_books
+  steps:
+  - intent: short_stories_books
+  - action: utter_short_stories_books
+  - action: utter_short_stories_book_1
+  - action: utter_short_stories_book_2
+  - action: utter_short_stories_book_3
+  - action: utter_short_stories_book_4
+  - action: utter_short_stories_book_5
+
+- story: saying_suspense_thriller_books
+  steps:
+  - intent: suspense_thriller_books
+  - action: utter_suspense_thriller_books
+  - action: utter_suspense_thriller_book_1
+  - action: utter_suspense_thriller_book_2
+  - action: utter_suspense_thriller_book_3
+  - action: utter_suspense_thriller_book_4
+  - action: utter_suspense_thriller_book_5
+
+- story: saying_bio_autobio_books
+  steps:
+  - intent: bio_autobio_books
+  - action: utter_bio_autobio_books
+  - action: utter_bio_autobio_book_1
+  - action: utter_bio_autobio_book_2
+  - action: utter_bio_autobio_book_3
+  - action: utter_bio_autobio_book_4
+  - action: utter_bio_autobio_book_5
+
+- story: saying_self_help_books
+  steps:
+  - intent: self_help_books
+  - action: utter_self_help_books
+  - action: utter_self_help_book_1
+  - action: utter_self_help_book_2
+  - action: utter_self_help_book_3
+  - action: utter_self_help_book_4
+  - action: utter_self_help_book_5

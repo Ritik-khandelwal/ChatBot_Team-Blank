@@ -150,6 +150,21 @@ nlu:
    - self-important
    - opinionated
 
+- intent: bot_saying_thankyou
+  examples: |
+   - you are great
+   - you have a great sense of humour
+   - you are awesome
+   - you are a good bot
+   - good
+   - great
+
+- intent: user_saying_thankyou
+  examples: |
+   - thankyou
+   - ok thankyou
+   - thanks
+
 - intent: tell_me_a_joke
   examples: |
    - tell me a joke
@@ -162,3 +177,102 @@ nlu:
    - what is humour
    - what do you mean by humour
    - humour
+
+- intent: genre_options
+  examples: |
+   - suggest me some good story books
+   - suggest me some books
+   - books options
+
+- intent: genre_options_more
+  examples: |
+   - suggest me some more good story books
+   - suggest me some more books
+   - more books options
+   - more options
+
+- intent: romance_books
+  examples: |
+   - romance books
+   - suggest me some romance books
+   - romance
+
+- intent: science_fiction_books
+  examples: |
+   - science fiction books
+   - suggest me some science fiction books
+   - science fiction
+
+- intent: historical_fiction_books
+  examples: |
+   - historical fiction books
+   - suggest me some historical fiction books
+   - historical fiction
+
+- intent: action_&_adventure_books
+  examples: |
+   - action & adventure books
+   - suggest me some action & adventure books
+   - action & adventure
+   - action and adventure
+
+- intent: detective_&_mystery_books
+  examples: |
+   - detective & mystery books
+   - suggest me some detective & mystery books
+   - detective & mystery
+   - detective and mystery
+
+- intent: classic_books
+  examples: |
+   - classic books
+   - suggest me some classic books
+   - classic
+
+- intent: comic_books
+  examples: |
+   - comic books
+   - comic
+   - suggest me some comic book
+
+- intent: fantasy_books
+  examples: |
+   - fantasy books
+   - fantasy
+   - suggest me some fantasy book
+
+- intent: horror_books
+  examples: |
+   - horror books
+   - horror
+   - suggest me some horror book
+
+- intent: short_stories_books
+  examples: |
+   - short stories books
+   - short stories
+   - suggest me some short stories book
+
+- intent: suspense_thriller_books
+  examples: |
+   - suspense and thriller books
+   - suspense
+   - thriller
+   - suspense and thriller
+   - suspense & thriller
+   - suggest me some suspense & thriller book
+
+- intent: bio_autobio_books
+  examples: |
+   - biographies and autobiographies books
+   - biographies
+   - autobiographies
+   - biographies and autobiographies
+   - biographies & autobiographies
+   - suggest me some biographies & autobiographies book
+
+- intent: self_help_books
+  examples: |
+   - self help books
+   - self help
+   - suggest me some self help book
